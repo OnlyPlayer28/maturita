@@ -1,0 +1,97 @@
+/*beige: #efeccaff;
+muted-teal: #a9cbb7ff;
+canary-yellow: #f7ff58ff;
+tangerine-dream: #ff934fff;
+taupe-grey: #5e565aff;*/
+body{
+    background: linear-gradient(#efeccaff,#a9cbb7ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: hidden;
+    user-select: none;
+}
+
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5e565aff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: lightgray;
+}
+
+#title{
+    text-align: center;
+}
+.mainPageButtonArea{
+    border-width: 1px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.mainPageButtonArea button{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+    font-size: medium;
+}
+.WIP{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flashcardsSelectionArea{
+    border-width: 1px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    overflow-y: auto;
+}
+
+#buttonArea button{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+    font-size: medium;
+}
+
+#backButton{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+.flashcard{
+    width: 40%;
+    height: 200px;
+    border-width: 1px;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.flashcard button{
+    width:100%;
+    height: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+.flashcard image{
+    position: absolute;
+    right: 0;
+    /*background-image: url("assets/flip.png");*/
+}

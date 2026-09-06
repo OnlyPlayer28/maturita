@@ -1,0 +1,5 @@
+[
+    {"question":"vety podla zlozenia","answer":"jednoducha veta: hola/rozvita\nsuvetie: jednoduche(priradovacie, podradovacie), zlozene"},
+    {"question":"vety podla clenitosti","answer":"jednoclenna: slovesna/neslovesna\ndvojclenna: uplna/neuplna"},
+    {"question":"vety podla obsahu","answer":"oznamovacia\nopytovacia\nrozkazovacia\nzvolacia\nzelacia"}
+]

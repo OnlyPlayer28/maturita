@@ -1,0 +1,12 @@
+[
+    {"question":"druhy konektorov","answer":"obsahovy, jazykovy, mimojazykovy"},
+    {"question":"rozvijanie textu(sposob)","answer":"retrospektivne(vraciame sa k prevej vete)\nperspektivne(podstatne az na konci)"},
+    {"question":"slovosled moze byt","answer":"objektivny, subjektivny"},
+    {"question":"druhy modifikacie vetnej skladby","answer":"vytyceny vetny clen\npripojeny vetny clen\nosamostatneny vetny clen\nelipsa\napoziopeza\nparenteza\npropiopeza"},
+    {"question":"horizontalne clenenie textu","answer":"napr. odsek(proza), strofa(poezia), vystup(drama)"},
+    {"question":"vertikalne clenenie textu","answer":"farba/velkost/druh pisma"},
+    {"question":"druhy odsekov","answer":"tvrdy: zacina na podstatne/pridavne meno, makky: vsetko ostatne\npriznakovy: vstup autora do textu, nepriznakovy: nadvaznost na posledne slovo predchadzajuceho odseku"},
+    {"question":"druhy kapitol","answer":"ramcujuca, kulminujuca,otvorena"},
+    {"question":"druhy rozpravacov","answer":"vsevediaci, priamy, autorsky, oko kamery"},
+    {"question":"typy dialogu","answer":"cyklicky, symetricky, asimetricky"}
+]
