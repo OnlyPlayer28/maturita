@@ -1,4 +1,4 @@
-const gramatika= ["veta","nadvetnaSyntax"]
+const gramatika= ["veta","nadvetnaSyntax","zvukovaStrankaJazyka"]
 var isShowingQuestion = true;
 var currentQuestion = 0;
 var currentQuestionSet;
