@@ -1,5 +1,5 @@
 [
-    {"question":"vety podla zlozenia","answer":"jednoducha veta: hola/rozvita\nsuvetie: jednoduche(priradovacie, podradovacie), zlozene"},
-    {"question":"vety podla clenitosti","answer":"jednoclenna: slovesna/neslovesna\ndvojclenna: uplna/neuplna"},
-    {"question":"vety podla obsahu","answer":"oznamovacia\nopytovacia\nrozkazovacia\nzvolacia\nzelacia"}
+    {"question":"vety podľa zloženia","answer":"<b>jednoduchá veta</b>: holá/rozvitá<hr><b>súvetie</b>: jednoduché(priraďovacie, podraďovacie), zložené"},
+    {"question":"vety podľa členitosti","answer":"<b>jednočlenná</b>: slovesná/neslovesná<hr><b>dvojčlenná</b>: úplná/neúplná"},
+    {"question":"vety podľa obsahu","answer":"oznamovacia<br>opytovacia<br>rozkazovacia<br>zvolacia<br>želacia"}
 ]

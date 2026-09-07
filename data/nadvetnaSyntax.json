@@ -1,12 +1,12 @@
 [
-    {"question":"druhy konektorov","answer":"obsahovy, jazykovy, mimojazykovy"},
-    {"question":"rozvijanie textu(sposob)","answer":"retrospektivne(vraciame sa k prevej vete)\nperspektivne(podstatne az na konci)"},
-    {"question":"slovosled moze byt","answer":"objektivny, subjektivny"},
-    {"question":"druhy modifikacie vetnej skladby","answer":"vytyceny vetny clen\npripojeny vetny clen\nosamostatneny vetny clen\nelipsa\napoziopeza\nparenteza\npropiopeza"},
-    {"question":"horizontalne clenenie textu","answer":"napr. odsek(proza), strofa(poezia), vystup(drama)"},
-    {"question":"vertikalne clenenie textu","answer":"farba/velkost/druh pisma"},
-    {"question":"druhy odsekov","answer":"tvrdy: zacina na podstatne/pridavne meno, makky: vsetko ostatne\npriznakovy: vstup autora do textu, nepriznakovy: nadvaznost na posledne slovo predchadzajuceho odseku"},
-    {"question":"druhy kapitol","answer":"ramcujuca, kulminujuca,otvorena"},
-    {"question":"druhy rozpravacov","answer":"vsevediaci, priamy, autorsky, oko kamery"},
-    {"question":"typy dialogu","answer":"cyklicky, symetricky, asimetricky"}
+    {"question":"druhy konektorov","answer":"obsahový, jazykový, mimojazykový"},
+    {"question":"rozvíjanie textu(spôsoby)","answer":"<i>retrospektívne</i> (vraciame sa k prvej vete)<br><i>perspektívne</i> (podstata až na konci)"},
+    {"question":"slovosled môže byť","answer":"objektívny, subjektívny"},
+    {"question":"druhy modifikácie vetnej skladby","answer":"vytýčený vetný člen<br>pripojený vetný člen<br>osamostatnený vetný člen<br>elipsa<br>apoziopéza<br>parentéza<br>propiopéza"},
+    {"question":"horizontálne členenie textu","answer":"napr.<br>odsek(próza)<br> strofa(poézia)<br> výstup(dráma)"},
+    {"question":"vertikálne členenie textu","answer":"farebnosť/veľkosť/druh pśsma"},
+    {"question":"druhy odsekov","answer":"<i>tvrdý</i>: začína na podstatné/prídavné meno<br><i>mäkký</i>: všetko ostatné<hr><i>príznakový</i>: vstup autora do textu<br><i>nepríznakový</i>: nadväznosť na posledné slovo predchádzajuceho odseku"},
+    {"question":"druhy kapitol","answer":"rámcujúca<br>kulminujúca<br>otvorená"},
+    {"question":"druhy rozprávačov","answer":"vševediaci<br>priamy<br>autorský<br>oko kamery"},
+    {"question":"typy dialógu","answer":"cyklický<br>symetrický<br>asimetrický"}
 ]

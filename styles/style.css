@@ -3,114 +3,183 @@ muted-teal: #a9cbb7ff;
 canary-yellow: #f7ff58ff;
 tangerine-dream: #ff934fff;
 taupe-grey: #5e565aff;*/
-@media only screen and (min-width: 600px) {
-    body{
-        background: red;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-}
 @media only screen and (max-width: 600px) {
-    body{
-        background: green;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    .mainPageButtonArea {
+        border-width: 1px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+    }
+
+    .mainPageButtonArea button {
+        display: block;
+        padding: 5px;
+        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        font-size: x-large;
+    }
+
+    .flashcardsSelectionArea {
+        border-width: 1px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        overflow-y: auto;
+    }
+
+    #buttonArea button {
+        display: block;
+        padding: 5px;
+        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        font-size: x-large;
+    }
+
+    #backButton {
+        position: fixed;
+        background-color: #5e565aff;
+        mask-image: url("../assets/home.png");
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        height: 60px;
+        width: 60px;
+        color: transparent;
+        bottom: 2%;
+        left: 2%;
+    }
+
+    .flashcard {
+        width: 95%;
+        height: 500px;
+        border-width: 1px;
+        border-style: dashed;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    .flashcard button {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: medium;
     }
 }
-@media only screen and (min-width: 768px) {
-    body{
-        background: linear-gradient(#efeccaff,#a9cbb7ff);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+
+@media only screen and (min-width: 600px) {
+    .mainPageButtonArea {
+        border-width: 1px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    .mainPageButtonArea button {
+        display: block;
+        padding: 5px;
+        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        font-size: medium;
+    }
+
+    .flashcardsSelectionArea {
+        border-width: 1px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        overflow-y: auto;
+    }
+
+    #buttonArea button {
+        display: block;
+        padding: 5px;
+        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        font-size: medium;
+    }
+
+    #backButton {
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+    }
+
+    .flashcard {
+        width: 50%;
+        height: 200px;
+        border-width: 1px;
+        border-style: dashed;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    .flashcard button {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: medium;
+    }
 }
+
+body {
+    background: linear-gradient(to top,#a9cbb7ff,#efeccaff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-button{
+
+button {
+    background-color: #efeccaff;
     cursor: pointer;
     border-radius: 5px;
     border-style: hidden;
     user-select: none;
 }
 
-*{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #5e565aff;
     text-decoration: none;
 }
-button:hover{
-    background-color: lightgray;
+
+button:hover {
+    background-color: beige;
 }
 
-#title{
+#title {
     text-align: center;
 }
-.mainPageButtonArea{
-    border-width: 1px;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-}
 
-.mainPageButtonArea button{
-    display: block;
-    padding: 5px;
-    margin: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width:fit-content;
-    font-size: medium;
-}
-.WIP{
+.WIP {
     width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
-.flashcardsSelectionArea{
-    border-width: 1px;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    overflow-y: auto;
-}
 
-#buttonArea button{
-    display: block;
-    padding: 5px;
-    margin: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width:fit-content;
-    font-size: medium;
+hr{
+    background-color: #5e565aff;
 }
-
-#backButton{
-    position: absolute;
-    bottom: 2%;
-    left: 2%;
-}
-.flashcard{
-    width: 40%;
-    height: 200px;
-    border-width: 1px;
-    border-style: dashed;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-}
-.flashcard button{
-    width:100%;
-    height: 100%;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: medium;
-}
-.flashcard image{
+.flashcard image {
     position: absolute;
     right: 0;
     /*background-image: url("assets/flip.png");*/
 }
-@media only screen and (min-width: 600px) {
-    
-}
+
+@media only screen and (min-width: 600px) {}

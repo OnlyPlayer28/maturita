@@ -1,8 +1,7 @@
 [
-    {"question":"samohlasky","answer":"dlhe:\nkratke\ndvojhlasky"},
-    {"question":"spoluhlasky","answer":"tvrde:\nmakke\nobojake"},
-    {"question":"slabikotvorne spoluhlasky","answer":""},
-    {"question":"znele parove","answer":""},
-    {"question":"neznele parove","answer":""},
-    {"question":"znele neparove","answer":""}
+    {"question":"samohlásky","answer":"<i>dlhé</i>: á, é, í, ó, ú, ý<br><i>krátke</i>: a, e, i, o, u, y, ä<br><i>dvojhlásky</i>: ia, ie, iu, ô"},
+    {"question":"spoluhlásky","answer":"<i>tvrdé</i>: d, t, n, l, g, k, h, ch<br><i>mäkké</i>: ď, ť, ň, ľ, š, č, dz, dˇy, ž, j, c<br><i>obojaké</i>: b, p, m, r, s, z, v, f"},
+    {"question":"slabikotvorné spoluhlásky","answer":"r, ŕ, l, ĺ"},
+    {"question":"znelé a neznelé párové","answer":"ž, z, g, dz, b, d, ď, dž, h, v<hr>š, s, k, c, p, t, ť, č, ch, f"},
+    {"question":"znelé nepárové","answer":"m, n ,r, ŕ, l, ĺ, ľ, ň"}
 ]
