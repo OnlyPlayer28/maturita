@@ -17,10 +17,12 @@ taupe-grey: #5e565aff;*/
         background-attachment: fixed;
     }
 }
-body{
-    background: linear-gradient(#efeccaff,#a9cbb7ff);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+@media only screen and (min-width: 768px) {
+    body{
+        background: linear-gradient(#efeccaff,#a9cbb7ff);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
 }
 button{
     cursor: pointer;
