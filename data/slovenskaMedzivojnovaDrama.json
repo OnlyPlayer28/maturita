@@ -1,6 +1,50 @@
 [
-    {"question":"divadlá","answer":"SND: Bratislava<br>Východoslovenské: Košice<br>J. G. Tajovského: Zvolen<br>Jána Palárika: Trnava<br> Jonáša Záborského: Prešov"},
-    {"question":"delenie","answer":"20. roky<br>návrat k starším autorom: Hviezdoslav, Kukučín, Timrava, Palárik<hr>30.roky<br><i>psychologické hry</i>: Július Barč Ivan, Ivan Stodola<br><i>veselohry:</i>F. Urbanek<hr>40.roky<br>psychologické hry, expresionizmus<br>Peter Zvon"},
-    {"question":"herci","answer":"Bielik<br>Kroner<br>Borodáč<br>Hana Meličková<br>O. Borodáčová<br>Andrej Bagar"},
-    {"question":"diela J. Barč Ivana","answer":"<i>veselohry</i>: Mastný hrniec<br><i>psychologické hry</i>: Matka<br><i>spoločenské hry</i>: 3000 ľudí"}
+    {
+        "question": "divadlá",
+        "answer": "SND: Bratislava<br>Východoslovenské: Košice<br>J. G. Tajovského: Zvolen<br>Jána Palárika: Trnava<br> Jonáša Záborského: Prešov"
+    },
+    {
+        "question": "delenie",
+        "answer": "20. roky<br>návrat k starším autorom: Hviezdoslav, Kukučín, Timrava, Palárik<hr>30.roky<br><i>psychologické hry</i>: Július Barč Ivan, Ivan Stodola<br><i>veselohry:</i>F. Urbanek<hr>40.roky<br>psychologické hry, expresionizmus<br>Peter Zvon"
+    },
+    {
+        "question": "herci",
+        "answer": "Bielik<br>Kroner<br>Borodáč<br>Hana Meličková<br>O. Borodáčová<br>Andrej Bagar"
+    },
+    {
+        "question": "diela J. Barč Ivana",
+        "answer": "<i>veselohry</i>: Mastný hrniec<br><i>psychologické hry</i>: Matka<br><i>spoločenské hry</i>: 3000 ľudí"
+    },
+    {
+        "question": "všeobecná charakteristika-Matka",
+        "answer": "skladá sa z 3 dejstiev<br>nájdeme v ňom známky expresionizmu<br>odohráva sa v Krompakoch<br>mystické prvky: predtuchy<hr><i>interpersonálny konflikt</i>: medzi Paľom a Jano<br><i>sociálny konflikt</i>: odchod do Ameriky"
+    },
+    {
+        "question": "postavy diela Matka",
+        "answer": "<b>Anna Pavlička</b><br>má predtuchy, ktoré sa napĺňajú<br>jej meno sa dozvedáme v poslednom dejstve<hr><b>Ján</b><br>starší brat, surovejší po otcovi<hr><b>Paľo</b><br>miernejší, vždy ustúpi, je po mame"
+    },
+    {
+        "question": "všeobecná charakteristika- Mastný hrniec",
+        "answer": "<i>inšpirácia</i>: Komédia o hrnci-Platón<br>odohráva sa v Ťuťotíne-ako Kocúrkovo<br>zápletka začína zámenou postáv<br><i>kritika malomešťanov</>"
+    },
+    {
+        "question": "postavy diela Mastný hrniec",
+        "answer": "<b>Baltazár Babík</b><br>profesor biológie, spokojný so životom učiteľa<hr><b>Mahuliena</b><br>manželka Baltazára<br>patrila do meštianskej vrstvy, už sa jej nedostáva toľko úcty"
+    },
+    {
+        "question": "diela Ivana Stodoly",
+        "answer": "<i>veselohry</i>: Jožko Púčik a jeho kariéra<br><i>psychologické hry</i>: Bačova Žena"
+    },
+    {
+        "question": "Jožko Púčik a jeho kariéra",
+        "answer": "satira na falošne chápaný humanizmus<hr>postavy<br><i>Jožko Púčik</i>-nežný, svedomitý<br><i>šéf Rohatý</i>-falošný,zlý na Púčika"
+    },
+    {
+        "question": "Bačova žena",
+        "answer": ""
+    },
+    {
+        "question": "všeobecná charakteristika- Tanec nad plačom",
+        "answer": "kompozícia<br>prológ<br>3 obrazy<br>epilóg"
+    }
 ]

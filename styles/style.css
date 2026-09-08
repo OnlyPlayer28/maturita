@@ -1,8 +1,11 @@
-/*beige: #efeccaff;
-muted-teal: #a9cbb7ff;
-canary-yellow: #f7ff58ff;
-tangerine-dream: #ff934fff;
-taupe-grey: #5e565aff;*/
+:root{
+    --backdropColorDarker : #a9cbb7ff;
+    --backdropColorLighter : #efeccaff;
+    --textColor : #5e565aff;
+    --buttonColor: #efeccaff;
+    --buttonHoverColor: beige;
+    --secondaryButtonColor: #5e565aff;
+}
 @media only screen and (max-width: 600px) {
     .mainPageButtonArea {
         border-width: 1px;
@@ -43,7 +46,7 @@ taupe-grey: #5e565aff;*/
 
     #backButton {
         position: fixed;
-        background-color: #5e565aff;
+        background-color: var(--secondaryButtonColor);
         mask-image: url("../assets/home.png");
         mask-size: contain;
         mask-repeat: no-repeat;
@@ -140,13 +143,13 @@ taupe-grey: #5e565aff;*/
 }
 
 body {
-    background: linear-gradient(to top,#a9cbb7ff,#efeccaff);
+    background: linear-gradient(to top,var(--backdropColorDarker),var(--backdropColorLighter));
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 button {
-    background-color: #efeccaff;
+    background-color: var(--buttonColor);
     cursor: pointer;
     border-radius: 5px;
     border-style: hidden;
@@ -155,12 +158,12 @@ button {
 
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #5e565aff;
+    color: var(--textColor);
     text-decoration: none;
 }
 
 button:hover {
-    background-color: beige;
+    background-color: var(--buttonHoverColor);
 }
 
 #title {
@@ -174,7 +177,7 @@ button:hover {
 }
 
 hr{
-    background-color: #5e565aff;
+    background-color: var(--textColor);
 }
 .flashcard image {
     position: absolute;
