@@ -1,5 +1,5 @@
-const gramatika = ["veta", "nadvetnaSyntax", "zvukovaStrankaJazyka", "suvetie"]
-const displayGramatika = ["veta", "nadvetná syntax", "zvuková stránka jazyka", "súvetie"]
+const gramatika = ["veta", "nadvetnaSyntax", "zvukovaStrankaJazyka", "suvetie","versoveSystemy"]
+const displayGramatika = ["veta", "nadvetná syntax", "zvuková stránka jazyka", "súvetie","veršové systémy"]
 const literatura = ["slovenskaMedzivojnovaDrama"]
 const displayLiteratura = ["Slovenská medzivojnová dráma"]
 var isShowingQuestion = true;
@@ -87,18 +87,13 @@ function onFlashcardClick() {
         window.open("../pages/flashcardsMenu.html", "_self");
     }
     if (isShowingQuestion) {
-        console.log("j");
         setNextQuestion();
-        /*document.getElementById("button").innerHTML = currentQuestionSet[currentQuestion].answer;*/
         isShowingQuestion = false;
-        /*document.getElementById("button").style.fontWeight = "normal";*/
     } else {
-        console.log("l");
+        localStorage.setItem("totalQuestions",Number(localStorage.getItem("totalQuestions")) + 1);
         currentQuestion += 1;
         setNextQuestion();
-        /*document.getElementById("button").innerHTML = currentQuestionSet[currentQuestion].question;*/
         isShowingQuestion = true;
-        /*document.getElementById("button").style.fontWeight = "bold";*/
     }
 
     setDisplayQuestionNumber();

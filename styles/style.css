@@ -1,11 +1,19 @@
 :root{
+    --backdropColorDarker : #F5EBDD;
+    --backdropColorLighter : #F5EBDD;
+    --textColor : #413333;
+    --buttonColor: #F2765E;
+    --buttonHoverColor: #f1907d;
+    --secondaryButtonColor: #315B8C;
+}
+/*:root{
     --backdropColorDarker : #a9cbb7ff;
     --backdropColorLighter : #efeccaff;
     --textColor : #5e565aff;
     --buttonColor: #efeccaff;
     --buttonHoverColor: beige;
     --secondaryButtonColor: #5e565aff;
-}
+}*/
 @media only screen and (max-width: 600px) {
     .mainPageButtonArea {
         border-width: 1px;
@@ -57,6 +65,19 @@
         bottom: 2%;
         left: 2%;
     }
+    #statsButton {
+        position: fixed;
+        background-color: var(--secondaryButtonColor);
+        mask-image: url("../assets/stats.png");
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        height: 60px;
+        width: 60px;
+        color: transparent;
+        bottom: 2%;
+        right: 2%;
+    }
 
     .flashcard {
         width: 95%;
@@ -75,6 +96,21 @@
         margin-left: auto;
         margin-right: auto;
         font-size: medium;
+    }
+    .flashcardImpressionButtons{
+        width: 95%;
+        height: 125px;
+        display: flex;
+    }
+    .flashcardImpressionButtons button{
+        margin-left: auto;
+        margin-right: auto; 
+        background-color: var(--secondaryButtonColor);
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        width: 50%;
+        height: 100%;
     }
 }
 
@@ -120,6 +156,11 @@
         position: absolute;
         bottom: 2%;
         left: 2%;
+    }
+    #statsButton {
+        position: absolute;
+        bottom: 2%;
+        right: 2%;
     }
 
     .flashcard {

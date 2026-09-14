@@ -1,0 +1,30 @@
+[
+    {
+        "question":"čo je to stopa",
+        "answer":"najmenšia jednotka verša.<br>úsek verša, ktorý sa skladá z krátkych (U) a dlhých (-) slabík"
+    },
+    {
+        "question":"aké druhy stôp poznáme",
+        "answer":"<i>trochej</i>: - U<br><i>jamb</i>: U -<br><i>spondej</i>: - -<br><i>daktyl</i>: - U U"
+    },
+    {
+        "question":"druhy veršových systémov(vymenovanie)",
+        "answer":"časomerný<br>sylabický<br>sylabotonický<br>tonický"
+    },
+    {
+        "question":"časomerný veršový systém",
+        "answer":"založený na striedaní dlhých a krátkych slabík<hr>druhy<br><i>hexameter<br>pentameter<br>elegické distichon</i>"
+    },
+    {
+        "question":"sylabický veršový systém",
+        "answer":"dodržiava rovnaký počet slabík vo verši"
+    },
+    {
+        "question":"sylabotonický veršový systém",
+        "answer":"je založený na striedaní prízvučných a neprízvučných slabík"
+    },
+    {
+        "question":"tonický veršový systém",
+        "answer":"založený na rytmickom opakovaní prízvuku<br><b>pre slovenčinu nevhodný</b>"
+    }
+]
