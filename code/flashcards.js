@@ -1,7 +1,7 @@
 const gramatika = ["veta", "nadvetnaSyntax", "zvukovaStrankaJazyka", "suvetie","versoveSystemy"]
-const displayGramatika = ["veta", "nadvetná syntax", "zvuková stránka jazyka", "súvetie","veršové systémy"]
-const literatura = ["slovenskaMedzivojnovaDrama"]
-const displayLiteratura = ["Slovenská medzivojnová dráma"]
+const displayGramatika = ["Veta", "Nadvetná syntax", "Zvuková stránka jazyka", "Súvetie","Veršové systémy"]
+const literatura = ["slovenskaMedzivojnovaDrama","starovekaLiteratura"]
+const displayLiteratura = ["Slovenská medzivojnová dráma","Staroveká literatúra"]
 var isShowingQuestion = true;
 var currentQuestion = 0;
 var currentQuestionSet;
@@ -37,6 +37,14 @@ function onButtonClick() {
     const button = event.currentTarget;
     sessionStorage.setItem("file", "../data/" + getButtonNameNoPunctuation(button.innerText) + ".json")
     window.open("../pages/flashcardQuizPage.html", "_self");
+}
+function onReactionButtonClick(id){
+    if(id == "yes"){
+        localStorage.setItem("totalCorrect",Number(localStorage.getItem("totalCorrect")) + 1)
+    }else{
+        localStorage.setItem("totalInCorrect",Number(localStorage.getItem("totalInCorrect")) + 1)
+    }
+    onFlashcardClick(true);
 }
 
 async function loadQuestionSet(file) {
@@ -78,22 +86,32 @@ function setFirstQuestion() {
     document.getElementById("button").onclick = onFlashcardClick;
     document.getElementById("button").style.fontWeight = "bold";
 
+    document.getElementById("yes").style.opacity = 0;
+    document.getElementById("no").style.opacity = 0;
+
 }
 function setDisplayQuestionNumber(){
     document.getElementById("displayQuestionNum").innerText=currentQuestion+1 + " z "+currentQuestionSet.length;
 }
-function onFlashcardClick() {
+function onFlashcardClick(iniciatedByButton = false) {
     if ((currentQuestion + 1) == (currentQuestionSet.length) && !isShowingQuestion) {
         window.open("../pages/flashcardsMenu.html", "_self");
     }
     if (isShowingQuestion) {
         setNextQuestion();
         isShowingQuestion = false;
+        document.getElementById("yes").style.opacity = 1;
+        document.getElementById("no").style.opacity = 1;
     } else {
         localStorage.setItem("totalQuestions",Number(localStorage.getItem("totalQuestions")) + 1);
         currentQuestion += 1;
         setNextQuestion();
         isShowingQuestion = true;
+        document.getElementById("yes").style.opacity = 0;
+        document.getElementById("no").style.opacity = 0;
+        if(!iniciatedByButton){
+            localStorage.setItem("totalCorrect",Number(localStorage.getItem("totalCorrect")) + 1)
+        }
     }
 
     setDisplayQuestionNumber();

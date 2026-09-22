@@ -115,6 +115,9 @@
 }
 
 @media only screen and (min-width: 600px) {
+    button:hover {
+    background-color: var(--buttonHoverColor);
+}
     .mainPageButtonArea {
         border-width: 1px;
         width: 30%;
@@ -201,10 +204,6 @@ button {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--textColor);
     text-decoration: none;
-}
-
-button:hover {
-    background-color: var(--buttonHoverColor);
 }
 
 #title {
