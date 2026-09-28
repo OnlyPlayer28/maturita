@@ -21,10 +21,38 @@
     },
     {
         "question":"Biblia",
-        "answer":"<b>Starý zákon</b><br>judaizmus aj kresťanstvo<br>apoštoli<br>dejepisné, náučné, proročné knihy<hr><b>Nový zákon</b><br>život Ježisa Krista<br>kresťanstvo<br>podobenstvá"
+        "answer":"<b>Starý zákon</b><br>judaizmus aj kresťanstvo<br>apoštoli<br>dejepisné, náučné, proročné knihy<hr><b>5 kníh mojžisových</b><br>Genezis<br>Exodus<br>Leviticus<br>Numeri<br>Deuteronomium<hr><b>Nový zákon</b><br>život Ježisa Krista<br>kresťanstvo<br>podobenstvá"
     },
     {
-        "question":"tonický veršový systém",
-        "answer":"založený na rytmickom opakovaní prízvuku<br><b>pre slovenčinu nevhodný</b>"
+        "question":"báj/mýtus",
+        "answer":"epický útvar zobrazujúci primitívny pohľad na vznik vecí"
+    },
+    {
+        "question":"antický grécky hrdina",
+        "answer":"muž<br>kalokagatia<br>poloboh - nadľudské schopnosti<br>idealizácia postáv<br>boj s príšerami<br>má dobré vlastnosti"
+    },
+    {
+        "question":"antická grécka epika",
+        "answer":"je veršovaná a využíva časomerný veršový systém<br><b>Homér</b>: <i>Ilias, Odysea</i><hr><b>Ezop</b> - bájky"
+    },
+    {
+        "question":"bájka",
+        "answer":"krátke epické dielo, pomocou <b>alegórie</b> a <b>inotajov</b> zobrazuje ľudí ako zvieratá. Vždy obsahuje <b>ponaučenie</b>."
+    },
+    {
+        "question":"antická grécka dráma",
+        "answer":"dodržiava Aristotelovu trojjednotu(<i>miesta,času,deja</i>)<hr>tragédia: vznešené témy, hrdina bojuje za národ.<b>na konci zomiera</b><br>komédia: má prekvapivý koniec"
+    },
+    {
+        "question":"Antigona - Sofokles",
+        "answer":"skladá sa z: <i>prológu, 5 dejstiev, epilógu</i><br>prostredie: palác v Tébach a jeho okolie<br>rozprávač: náčelník/zbor<br><b>téma:</b> pochovanie brata<br><b>idea: </b>nemáme byť sebeckí<hr><b>postavy</b><br>Kreón<br>Eurydika<br>Antigona, Isména<br>Eteokles, Polyneikos<br>Teiresias<br>Haimón"
+    },
+    {
+        "question":"antická rímska lyrika",
+        "answer":"<b>Horacius</b><br>satira, óda<br>zlatá stredná cesta<hr><b>Vergílius</b><br>roľnícke a banícke básne<br>Elenoas, Aeneas<hr><b>Ovidius</b><br>o láske, umení milovať<br>Metamorfózy, Umenie milovať, Lásky"
+    },
+    {
+        "question":"antická rímska epika",
+        "answer":"<b>Caesar</b><br>Zápisky o vojne v Gálii<hr>Marcus Tullius Cicero<br>O senáte, O zákonoch, O štáte"
     }
 ]

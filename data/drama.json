@@ -1,0 +1,26 @@
+[
+    {
+        "question": "znaky",
+        "answer": "neprítmonosť rozprávača<br>dejovosť, prítomný čas<br>dialogickosť, hovorovosť"
+    },
+    {
+        "question": "vnútorná kompozícia",
+        "answer": "expozícia<br>kolízia<br>kríza<br>peripetia<br>katastrofa"
+    },
+    {
+        "question": "vonkajšia kompozícia",
+        "answer": "dejstvo - obraz/scéna - výstup<br>replika: <i>prehovor jednej postavy</i><br>dialóg: <i>prehovor 2+ postáv</i><br>scénické poznámky: komentár autora, <b>mimojazykový konektor</b>"
+    },
+    {
+        "question": "premiéra",
+        "answer": "prvé predstavenie"
+    },
+    {
+        "question": "derniéra",
+        "answer": "posledné predstavenie"
+    },
+    {
+        "question": "repríza",
+        "answer": "opakované predstavenie"
+    }
+]
