@@ -1,7 +1,7 @@
 const gramatika = ["veta", "nadvetnaSyntax", "zvukovaStrankaJazyka", "suvetie","versoveSystemy"]
 const displayGramatika = ["Veta", "Nadvetná syntax", "Zvuková stránka jazyka", "Súvetie","Veršové systémy"]
-const literatura = ["slovenskaMedzivojnovaDrama","starovekaLiteratura","frazeologizmy","drama"]
-const displayLiteratura = ["Slovenská medzivojnová dráma","Staroveká literatúra","Frazeologizmy","Dráma"]
+const literatura = ["slovenskaMedzivojnovaDrama","starovekaLiteratura","frazeologizmy","drama","stredovekaLiteratura"]
+const displayLiteratura = ["Slovenská medzivojnová dráma","Staroveká literatúra","Frazeologizmy","Dráma","Stredoveká Literatúra"]
 var isShowingQuestion = true;
 var currentQuestion = 0;
 var currentQuestionSet;
